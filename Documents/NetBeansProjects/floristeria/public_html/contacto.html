@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
          <div id="cabecera">
@@ -25,7 +26,39 @@ and open the template in the editor.
             </ul>
         </div>
         <div id="formulario">
-            
+            <h1> Escríbenos y te responderemos</h1>
+            <form>
+                <div>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre"/>
+                </div>
+                <div>
+                <label for="telefono"> Teléfono: </label>
+                <input type="text" id="telefono"/>
+                </div>
+                <div>
+                <label for="correo"> eMail: </label>
+                <input type="email" id="email"/>
+                </div>
+                <div>
+                <label for="asunto"> Asunto: </label>
+                <select id="asunto" name="asunto">
+                    <option value="" selected="selected"> Elige una opción</option>
+                    <option value="Informacion"> Solicitud de información</option>
+                    <option value="Cotiza" > Solicitar cotización</option>
+                    <option value="Reclamacion"> Realizar una reclamación</option>
+              <option value="otro"> Otro</option>
+                </select>
+                </div>
+               
+                <div>
+                 <label for="mensaje"> Mensaje: </label> 
+                 <textarea id="msg" cols="80" rows="10"></textarea>
+                </div>
+                <div class="boton">
+                    <button type="submit"> Enviar</button>
+                </div>
+            </form>
         </div>
         <div id="pie">
             Calle 1ra #25 Jardines del Cerro. Santiago de los Caballeros Republica Dominicana.</br>

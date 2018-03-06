@@ -41,3 +41,29 @@ ul li{
         text-align: center;
         font-weight: bold;
     }
+    form{
+      margin: 0 auto;
+      width:700px;
+      background:  chartreuse;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    form div{
+        margin-bottom: 5px;
+    }
+    label{
+        font-family: Forte;
+        width:100px;
+        text-align: right;
+        display:inline;
+    }
+    input{
+        width: 200px;
+    }
+    textArea{
+        width: 400px;
+        vertical-align: middle;
+    }
